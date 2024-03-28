@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <form name="formularz">
+        Imię: <input type="text" id="fName"> <br><br>
+        Nazwisko: <input type="text" id="sName">
+        <br>
+        <br>
+
+        Płeć: <br>
+            Mężczyzna <input type="radio" name="gender" value="mezczyzna"> <br>
+            Kobieta <input type="radio" name="gender" value="kobieta"> <br>
+            Attack Helicopter <input type="radio" name="gender" value="apache"> <br> 
+            Wole nie mówić <input type="radio" name="gender" value="none"> <br>
+
+        <br>
+        <br>
+
+        Kardiolog <input type="radio" name="doctor" value="kardiolog">
+        Ortopeda <input type="radio" name="doctor" value ="ortopeda">
+        Onkolog <input type="radio" name="doctor" value ="onkolog">
+
+        <br>
+        <br>
+
+        NFZ <input type="radio" name="badanie" value="NFZ">
+        Płatne <input type="radio" name="badanie" value="platne">
+        Abonamentowe <input type="radio" name="badanie" value="abonamentowe">
+
+        <br>
+        <br>
+
+        Data: <input type="date" id="data">
+
+        <br>
+        <br>
+
+        Wypisać receptę <input type="checkbox" id="recepta">
+
+        <br>
+        <br>
+
+        <button type="button" onclick="Send()">Prześlij</button>
+        <input type="reset" value="Wyczyść">
+    </form>
+
+    <br>
+    <br>
+
+    <div id="output"></div>
+    <script src = "script.js"></script>
+</body>
