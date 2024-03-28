@@ -1,0 +1,11 @@
+1. SELECT DISTINCT imie, nazwisko, opis, zdjecie FROM osoby WHERE Hobby_id = 1 OR Hobby_id = 2 OR Hobby_id = 6;
+
+2. SELECT osoby.id, nazwisko, nazwa FROM osoby INNER JOIN hobby ON Hobby_id = hobby.id WHERE rok_urodzenia > 2000;
+
+3. SELECT id, zdjecie FROM osoby WHERE imie = "Monika" LIMIT 5;
+
+4. CREATE TABLE wpisy(
+	id INT UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    wpis TEXT,
+    uzytkownik_id INT UNSIGNED NOT NULL
+);
