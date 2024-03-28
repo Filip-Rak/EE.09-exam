@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <h3>Formularz kontakotwy</h1>
+    <br><br><br>
+
+    <form name="formularz"> 
+        <div id="type">
+            Imię: <br>
+            Nazwisko:<br>
+            Email: <br>
+            Usługa: <br>
+        </div>
+        <div id="options">
+            <input type="text" id="fname"><br>
+            <input type="text" id="sname"><br>
+            <input type="email" id="email"><br>
+            <select id="service">
+                <option>naprawa komputera</option>
+                <option>naprawa drukarki</option>
+                <option>przewozy za granice (tanio)</option>
+            </select>
+            <br>
+            <input type="checkbox" id="agreement" checked="true">Wyślj kopię wiadomości <br>
+            <input type="reset" value="Resetuj">
+            <button type="button" style="background-color:green" onclick="Send()">Prześlij</button>
+        </div>
+        
+    </form>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
