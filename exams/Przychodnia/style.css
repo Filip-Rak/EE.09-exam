@@ -1,0 +1,76 @@
+header{
+    height: 160px;
+    background-color: #3BBB80;
+    color: white;
+    padding: 10px;
+}
+
+#navi{
+    height: 50px;
+}
+
+#main{
+    height: 500px;
+    font-family: Arial;
+    color: black;
+    padding: 10px;
+    background-color: #4EB555;
+}
+
+footer{
+    background-color: #3BBB80;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#loggo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#haslo{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+#napis{
+    position: relative;
+    left: 600px;
+}
+
+img{
+    border: 1px solid;
+}
+
+#navi > button{
+    color: gray;
+    border: 1px solid;
+    margin: 5px 5px 5px 0px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+a, a:visited, a:hover{  
+    text-decoration: none;
+    color: gray;
+}
+
+.outs{
+    float: left;
+    width: 50%;
+}
+
+body{
+    overflow: hidden;
+}
+
+form{
+    margin-left: 40%;
+    text-align: left;
+}
