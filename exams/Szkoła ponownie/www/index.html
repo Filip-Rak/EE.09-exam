@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Szkoła ponadgimnazjalna</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h1>Projekt strony internetowej szkoły ponadgimnazjalnej</h1>
+    </header>
+    <section id="left">
+        <h3>Do pobrania</h3>
+        <ul>
+            <li><a href="../baza/zapytania.txt">zapytania SQL</a></li>
+            <li><a href="../baza/szkola_nowa.sql">baza danych</a></li>
+        </ul>
+        <hr>
+        <h3>Wyznaczanie najwyższej średniej</h3>
+        <form>
+            <ul>
+                <li><span class="txt">Polak</span><input  type="text" id="aInp"></li>
+                <li><span class="txt">Nowak</span><input  type="text" id="bInp"></li>
+                <li><span class="txt">Rysik</span><input  type="text" id="cInp"></li>
+            </ul>
+            <button type="button" onclick="Calc(aInp.value, bInp.value, cInp.value)"><label>wyznacz</label></button>
+            <h3>Najwyższa średnia: </h3>
+            <span id="output"></span>
+        </form>
+    </section>
+    <section id="right">
+        <table>
+            <tr>
+                <td>Treść zapytania</td>
+                <td width="405px">Zrzut ekranu</td>
+            </tr>
+            <tr>
+                <td>INSERT INTO wychowawca(id, imie, nazwisko, id_klasy) values(5, "Maciej", "Stasiak", 5);</td>
+                <td width="405px"><img src="kwerenda1.jpg" alt="kwerenda1.jpg"></td>
+            </tr>
+            <tr> 
+                <td>SELECT uczen.imie, uczen.nazwisko FROM uczen INNER JOIN wychowawca ON uczen.id_klasy = wychowawca.id_klasy WHERE wychowawca.nazwisko = "Michalska".</td>
+                <td width="405px"><img src="kwerenda2.jpg" alt="kwerenda2.jpg"></td>
+            </tr>
+            <tr>
+                <td>CREATE USER 'K_Pietkiewicz'@'localhost' IDENTIFIED BY "kp_123"</td>
+                <td width="405px"><img src="nowy_uzytkownik.jpg" alt="nowy_uzytkownik.jpg"></td>
+            </tr>
+            <tr>
+                <td>GRANT SELECT, INSERT on uczen TO K_Pietkiewicz</td>
+                <td width="405px"><img src="uprawnienia.jpg" alt="uprawnienia.jpg"></td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <h4>stronę wykonał: PESEL</h4>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>

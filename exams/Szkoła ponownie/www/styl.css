@@ -1,0 +1,58 @@
+body{
+    font-family: Tahoma;
+}
+
+a, .txt{
+    color: #ffd87e;
+}
+
+#right, hr{
+    background-color: #ffd87e;
+}
+
+header, #left, footer{
+    background-color: #af8c4b;
+}
+
+#left{
+    text-align: right;
+    width: 30%;
+    float: left;
+}
+
+#right{
+    width: 70%;
+    overflow: scroll;
+    float: left;
+}
+
+#left, #right{
+    height: 500px;
+}
+
+header, footer{
+    text-align: center;
+}
+
+header{
+    height: 60px;
+}
+
+footer{
+    height: 25px;
+    clear: both;
+}
+
+li{
+    list-style-type: circle;
+    text-align: right;
+}
+
+li::marker{
+    background-color: black;
+    text-align: right !important;
+}
+
+td{
+    border: black dotted 1px;
+}
