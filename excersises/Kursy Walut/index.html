@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>  
+    <title>Kursy Wymiany Walut</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="Kurs Wymiany Walut, waluty, euro, frank, rubel, dolar, waluta">
+    <meta name="description" content="Prosty darmowy i najlepszy przelicznik walut w całej galaktyce">
+    <meta name="Author" content="Grzegorz Brzenczyszczikiewicz">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header> 
+        <img class="logo" src="pic/logo.png">
+            <h1>Najlepszy kalkulator walutowy w europie wschodniej!</h1>
+        </div>
+        <div style="clear:both"></div>       
+    </header>
+    <div id="container">
+        <div id="catch">
+            <h2>Przeliczanie walut jeszcze nigdy nie było tak proste, beuh!</h2>
+            <hr>
+        </div>
+        <section id="tabs">
+            <!-- ikony zrobione przez https://www.flaticon.com -->
+            <form> 
+                <div id="settings">
+                    <span id="precision-output">2</span>
+                    <input id="precision-slide" type="range" min="0" max="6" value="2"> 
+                    <input id="callendar" type="text" value="2020-04-23">
+                </div>       
+                <div id="PLN" class="tab">
+                        <img src="pic/flags/poland.png">   
+                        <div class="info">
+                            <strong>Polski Złoty (PLN)</strong>
+                            <br>
+                            zł: złoty, grosze
+                            <div id="PLN-course" class="currCourse">
+                                Aktualny kurs: 1 zł = 1 zł
+                            </div>
+                            <div class="input">
+                                <input id="PLN-calc" type="text" value="1">
+                            </div>            
+                        </div>            
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="EUR" class="tab">
+                    <img src="pic/flags/european-union.png">   
+                    <div class="info">
+                        <strong>Euro (EUR)</strong>
+                        <br>
+                        &#128;: euro, centy
+                        <div id="EUR-course" class="currCourse">
+                            Aktualny kurs: 1 euro = 4.55 zł
+                        </div>
+                        <div class="input">
+                            <input id="EUR-calc" type="text" value="1">
+                        </div>            
+                    </div>            
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="GBP" class="tab">
+                    <img src="pic/flags/united-kingdom.png">   
+                    <div class="info">
+                        <strong>Funt Brytyjski (GBP)</strong>
+                        <br>
+                        &#163;: funt szterling, pens
+                        <div id="GBP-course" class="currCourse">
+                            Aktualny kurs: 1 p = 4.99 zł
+                        </div>
+                        <div class="input">
+                            <input id="GBP-calc" type="text" value="1">
+                        </div>            
+                    </div>            
+                 </div>
+                <br>
+                <br>
+                <br>
+                <div id="CHF" class="tab">
+                    <img src="pic/flags/switzerland.png">   
+                    <div class="info">
+                        <strong>Frank Szwajcarski (CHF)</strong>
+                        <br>
+                        &#8355;: frank, centym
+                        <div id="CHF-course" class="currCourse">
+                            Aktualny kurs: 1 f = 4.21 zł
+                        </div>
+                        <div class="input">
+                            <input  id="CHF-calc" type="text" value="1">
+                        </div>            
+                    </div>            
+                 </div>
+                 <br>
+                <br>
+                <br>
+                <div id="USD" class="tab">
+                    <img src="pic/flags/usa.png">   
+                    <div class="info">
+                        <strong>Dolar Amerykański (USD)</strong>
+                        <br>
+                        $: dolar, cent
+                        <div id="USD-course" class="currCourse">
+                            Aktualny kurs: 1 zł = 1 zł
+                        </div>
+                        <div class="input">
+                            <input id="USD-calc" type="text" value="1">
+                        </div>            
+                    </div>            
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="RUB" class="tab">
+                    <img src="pic/flags/russia.png">   
+                    <div class="info">
+                        <strong>Rubel Rosyjski (RUB)</strong>
+                        <br>
+                        ₽: rubel, kopiejka
+                        <div id="RUB-course" class="currCourse">
+                            Aktualny kurs: 1 r = 0.050 zł
+                        </div>
+                        <div class="input">
+                            <input id="RUB-calc" type="text" value="1">
+                        </div>            
+                    </div>            
+                 </div>
+                 <br>
+                <br>
+                <br>
+                <div id="CZK" class="tab">
+                    <img src="pic/flags/czech-republic.png">   
+                    <div class="info">
+                        <strong>Korona Czeska (CZK)</strong>
+                        <br>
+                        Kč: korona, halerz
+                        <div id="CZK-course" class="currCourse">
+                            Aktualny kurs: 1 k = 0.17 zł
+                        </div>
+                        <div class="input">
+                            <input id="CZK-calc" type="text" value="1">
+                        </div>            
+                    </div>            
+                 </div>
+                 <br>
+                <br>
+                <br>
+                <div id="JPY" class="tab">
+                    <img src="pic/flags/japan.png">   
+                    <div class="info">
+                        <strong>Jen Japoński (JPY)</strong>
+                        <br>
+                        ¥: jen, rin, sen
+                        <div id="JPY-course" class="currCourse">
+                            Aktualny kurs: 1 y = 0.037 zł
+                        </div>
+                        <div class="input">
+                            <input id="JPY-calc" type="text" value="1">
+                        </div>            
+                    </div>            
+                 </div>
+                 <button id="submitBtn" type="button" onclick="CalculateNew()">Przelicz kursy</button>
+            </form>
+        </section>   
+    </div>
+    <footer>
+        <img class="logo" src="pic/logo.png">
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
