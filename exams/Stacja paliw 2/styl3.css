@@ -1,0 +1,49 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+#blok{
+    width: 100%;
+    height: 200px;
+}
+
+#glowny{
+    width: 100%;
+    height: 200px;
+}
+
+#baner-lewy, #lewy{
+    background-color: rgb(130, 69, 85);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+
+}
+
+#baner-prawy, #prawy{
+    background-color: rgb(130, 69, 85);
+    color: white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: right;
+}
+
+#glowny, footer{
+    background-color: rgb(240,234,226);
+    padding: 120px;
+    width: calc(100% - 240px);
+    height: 200px;
+}
+
+table, tr, td{
+    border: 1px solid rgb(130, 69, 85);
+    color: rgb(130, 69, 85);
+    padding: 10px;
+}
+
+a{
+    color: rgb(240, 234, 226)
+}
