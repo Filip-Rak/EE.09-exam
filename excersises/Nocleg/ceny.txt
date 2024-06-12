@@ -1,0 +1,5 @@
+dziennie:
+za dorosla: 100
+dziecko: 70
+sniadanie: 0 | 40 | 80 -- za osobe za dzien
+pokoj: stanbdardowy = 0, all in 160 od dorosłego (raz) / dzieci nie mają pokoji
