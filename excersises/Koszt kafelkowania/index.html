@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <form name="formularz">
+        Powierzchnia w m<sup>2</sup> <input type="number" id="inpSize"><br><br>
+
+        <input type="radio" name="type" value="70" checked="true"> Płytki 20 x 20cm <br>
+        <input type="radio" name="type" value="80"> Płytki 25 x 12cm <br><br>
+
+        <button type="button" onclick="Calc()">Przelicz</button> <br><br>
+    </form>
+
+    <span>
+        Koszt kafelkowania: <span id="output">x</span> zł
+    </span>
+
+    <script src="script.js"></script>
+</body>
