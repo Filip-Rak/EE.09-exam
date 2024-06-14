@@ -1,0 +1,30 @@
+body{
+    font-size: 40px;
+    text-align: center;
+}
+
+header{
+    background-color: orange;
+    height: 300px;
+}
+
+section{
+    width: 50%;
+    height: 300px;
+}
+
+#s1{
+    float: left;
+    background-color: lightblue;
+}
+
+#s2{
+    float: right;
+    background-color: pink;
+}
+
+footer{
+    background-color: purple;
+    clear: both;
+    height: 300px;
+}
