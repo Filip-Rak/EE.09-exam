@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+    background-image: url("pic/flower.png");
+    background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vw;
+    width: 80vw;
+}
+
+header{
+    height: 10vw;
+    width: 100%;
+    background-color: black;
+    border-radius: 0px 0px 80px 80px;
+}
+
+#image{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+#image img{
+    position: relative;
+    bottom: 4vw;
+    margin-left: 0%;
+    width: 18vw;
+    height: auto;
+}
+
+#napisLogo{
+    float: right;
+    width: 80%;
+    color: gray;
+    padding-top: 5%;
+    font-size: 2.2vw;
+    position: relative;
+    left: -5%;
+}
+
+.sec1{
+    margin-top: 7vw;
+    width: calc(43%);
+    height: 19vw;
+    background-color: white;
+    font-size: 1.2vw;
+    padding-top: 5vh;
+    padding-left: 7%;
+}
+
+#sec1l{
+    float: left;
+    border-radius: 80px 0px 0px 0px;
+}
+
+#sec1r{
+    float: right;
+    border-radius: 0px 80px 0px 0px;
+    width: calc(43% - 1px);
+}
+
+#names{
+    width: 35%;
+    margin-left: 5%;
+    float: left;
+}
+
+#inputs{
+    width: 35%;
+    padding-right: 15%;
+    float: right;
+}
+
+#inputs input{
+    margin-right: 1.3vw;
+    width: 10vw;
+    height: 1vw;
+    margin-bottom: 1.7vw;
+}
+
+.name{
+    padding-bottom: 1.8vw;
+}
+
+#radios{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 100%;
+    clear: both;
+}
+
+.doctor img{
+    width: 7vw;
+    height: 7vw; 
+}
+
+#details{
+    padding-top: 1%;
+    float: right;
+    text-align: left;
+    width: 75%;
+    height: 100%;
+}
+
+.doctor{
+    margin-bottom: 5vh;
+}
+
+
+#bottom{
+    height: 20vw;
+    width: 100%;
+    clear: both;
+}
+
+#buttons{
+    background-color: white;
+    height: 10vw;
+    width: 100%;
+    text-align: center;
+    padding-top: 7vh;
+    font-size: 1.2vw;
+}
+
+#results{
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 0px 0px 80px 80px;
+}
+
+
+footer{
+    margin-top: 0.7vw;
+    height: 8vw;
+    width: 100%;
+    background-color: black;
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+    padding-top: 0.4vw;
+    color: gray;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+#contact{
+    padding-left: 2vw;
+    width: 40%;
+    float: left;
+}
+
+#bottomPic{
+    float: right;
+    width: 30%;
+    height: 1px;
+}
+
+#bottomPic img{
+    width: 45%;
+    height: auto;
+    position: relative;
+    bottom: 2vw;
+}
+
+#buttons input{
+    width: 12%;
+    height: calc(4.36 * 7%);
+    font-size: 2.5vh;
+    background-color: lightblue;
+    border: 1px lightblue solid;
+}
+
+#buttons input:hover{
+    background-color: white;
+    transition-duration: 0.4s;
+}
+
+#results{
+    padding-left: 40%;
+    width: 60%;
+    text-align: left;
+    font-size: 2.5vh;
+}
