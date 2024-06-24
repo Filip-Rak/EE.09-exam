@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Praca Domowa</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    Zadanie 1: <br>
+
+    <form action="zadanie1.php" method="POST">
+        Data faktury: <input type="date" name="fak_dat"> <br>
+        Numer faktury: <input type="number" name="fak_nr"> <br>
+        Wydrukować: <input type="checkbox" name="druk"> <br>
+        <select name="commission">
+            <option value="Osoba prywatna" >Osoba prywatna</option>
+            <option value="Firma" >Firma</option>
+        </select> <br>
+        <input type="reset"> <br>
+        <input type="submit"> <br>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    Zadanie 2: <br>
+
+    <form action="zadanie2.php" method="POST">
+        X: <input type="number" name="x"> r dla koła<br>
+        Y: <input type="number" name="y"> używane tylko przy prostokącie<br>
+
+        <select name="figure">
+            <option value="kwadrat">Kwadrat</option>
+            <option value="prostokat">Prostokąt</option>
+            <option value="kolo">Koło</option>
+        </select>
+
+        <input type="reset"> <br>
+        <input type="submit"> <br>
+    </form>
+</body>
