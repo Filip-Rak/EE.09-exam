@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background-color: black;
+    padding-top: 30px;
+    color: lightgray;
+    height: 100px;
+    margin:0;
+    margin-bottom: 60px;
+}
+
+header h1{
+    margin:0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.mid{
+    width: calc(100% / 3);
+    height: 200px;
+}
+
+#left{
+    width: 22.5%;
+    float: left;
+    background-color: white;
+}
+#middle{
+    width:55%;
+    float: left;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 80px;
+    padding-top: 50px;
+    box-shadow: 5px 10px #888888;
+}
+
+#middle:hover{
+    background-color: rgb(255, 145, 0);
+    transition-duration: 0.4s;
+}
+
+input, button{
+    border:0px;
+}
+
+#right{
+    width: 20%;
+    float: right;
+    background-color: white;
+}
+
+#bottom{
+    clear: both;
+    width: 500px;
+    height: 35%;
+    margin: 400px auto 0 auto;
+    box-shadow: 5px 10px #888888;
+    border-radius: 80px;
+    background-color: lightgreen;
+    font-size: 20px;
+}
+
+#resultsPHP{
+    width: 40%;
+    height: 100%;
+    border-radius: 80px 0px 0px 80px;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#resultsPHP h1, #resultsJS h1{
+    font-size: 38px;
+    text-align: center;
+    padding-left: 0%;
+}
+
+#resultsPHP:hover{
+    background-color: #474A8A;
+}
+
+#resultsJS{
+    width: calc(50% - 1px);
+    border-left: 1px solid black;
+    height: 100%;
+    float: right;
+    border-radius: 0px 80px 80px 0px;
+    background-color: lightseagreen;
+}
+
+#resultsJS:hover{
+    background-color: #f0db4f;
+}
+
+#outputJS{
+    padding-left: 5%;
+    padding-right: 5%;
+}
