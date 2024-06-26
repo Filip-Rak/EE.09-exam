@@ -1,0 +1,3 @@
+Góra: lista wychowawców z bazy danych
+Środek: Formularz do usuwania wychowawcy przez ID
+Dół: Lista pozostałych wychowawców, która wyświetla się po usunięciu jednego z bazy
